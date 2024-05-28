@@ -12,7 +12,6 @@ function BookingCalendar({ onDateChange }) {
   };
 
   const renderCalendar = () => {
-    // Implement calendar rendering logic here
     return <div>Calendar goes here...</div>;
   };
 
@@ -26,7 +25,7 @@ function BookingCalendar({ onDateChange }) {
       <p>
         Selected End: {selectedEnd ? moment(selectedEnd).format('YYYY-MM-DD') : 'N/A'}
       </p>
-    </div>
+    </div> 
   );
 }
 
